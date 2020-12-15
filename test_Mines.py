@@ -17,4 +17,3 @@ class TestMines(TestCase):
         im = IronMine('Iron Mine')
         im.increment_output(r.iron)
         self.assertTrue(r.iron in im.output)
-
